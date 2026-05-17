@@ -1,0 +1,33 @@
+{
+    "NATO": {
+        "title": "NATO",
+        "year": "1949",
+        "description": "The North Atlantic Treaty Organization (NATO) is a military alliance formed after World War II to ensure collective defense among member nations. It was established during the Cold War primarily to counter the influence of the Soviet Union. NATO operates under the principle that an attack on one member is considered an attack on all members under Article 5 of the treaty. Over time, NATO has expanded beyond Europe and now plays a major role in global military cooperation, counter-terrorism, cyber defense, and strategic security operations. The alliance has been heavily involved in conflicts and peacekeeping missions in regions such as the Balkans, Afghanistan, and the Middle East.",
+        "members": "32 member countries including the United States, United Kingdom, France, Germany, Italy, Poland, Canada and others.",
+        "purpose": "Collective defense, military cooperation, strategic deterrence, cyber security, and maintaining transatlantic stability."
+    },
+
+    "BRICS": {
+        "title": "BRICS",
+        "year": "2009",
+        "description": "BRICS is an economic and geopolitical alliance made up of major emerging economies aiming to increase their influence in global governance and reduce dependence on Western-led financial systems. Originally consisting of Brazil, Russia, India, China, and South Africa, the bloc has expanded with new members in recent years. BRICS promotes cooperation in trade, infrastructure, energy, technology, and international finance. The group advocates for a multipolar world order where power is more evenly distributed rather than dominated by Western nations. BRICS countries have also discussed alternatives to the US dollar in international trade and established institutions like the New Development Bank to finance infrastructure and development projects.",
+        "members": "Brazil, Russia, India, China, South Africa along with recently invited and expanded member nations.",
+        "purpose": "Economic cooperation, financial independence, trade partnerships, infrastructure development, and promoting a multipolar world order."
+    },
+
+    "SCO": {
+        "title": "Shanghai Cooperation Organization",
+        "year": "2001",
+        "description": "The Shanghai Cooperation Organization (SCO) is a Eurasian political, economic, and security alliance founded by China and Russia along with Central Asian nations. It focuses on regional stability, anti-terrorism cooperation, military coordination, economic connectivity, and strategic diplomacy across Eurasia. The SCO has become increasingly important due to rising geopolitical competition in Asia and the expansion of Chinese and Russian influence. India and Pakistan later joined the organization, making it one of the world's largest regional organizations by population and geographic coverage. The organization also works on issues related to energy security, transportation corridors, digital cooperation, and counter-extremism.",
+        "members": "China, Russia, India, Pakistan, Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, Iran and others.",
+        "purpose": "Regional security, anti-terrorism operations, economic integration, Eurasian cooperation, and strategic stability."
+    },
+
+    "QUAD": {
+        "title": "Quadrilateral Security Dialogue",
+        "year": "2007",
+        "description": "The Quadrilateral Security Dialogue, commonly known as the QUAD, is a strategic partnership between India, the United States, Japan, and Australia. The alliance focuses on maintaining a free, open, and secure Indo-Pacific region amid rising geopolitical tensions and increasing Chinese influence in Asia-Pacific waters. Although not a formal military alliance like NATO, the QUAD conducts joint naval exercises, strategic dialogues, cybersecurity cooperation, supply chain initiatives, and technology partnerships. It has become increasingly important in discussions related to maritime security, semiconductor supply chains, critical technologies, and Indo-Pacific stability.",
+        "members": "India, United States, Japan, and Australia.",
+        "purpose": "Indo-Pacific security, maritime cooperation, strategic balancing, technology partnerships, and regional stability."
+    }
+}

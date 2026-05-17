@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GeoSphere</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css">
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}">
+
+    <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js"></script>
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <div class="sidebar">
+
+            <h1>🌍 GeoSphere</h1>
+            <div id="country-info">
+
+                <h4>Search a country to know about it.</h4>
+
+            </div>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="country-search"
+                    placeholder="Search country..."
+                >
+
+                <button onclick="searchCountry()">
+                 Search
+                </button>
+
+            </div>
+            
+            <div><h4>Select a Bloc </h4></div>
+            <div class="buttons">
+
+                <button onclick="showAlliance('NATO')">NATO</button>
+                <button onclick="showAlliance('BRICS')">BRICS</button>
+                <button onclick="showAlliance('SCO')">SCO</button>
+                <button onclick="showAlliance('QUAD')">QUAD</button>
+                <button onclick="resetMap()">Reset</button> 
+
+            </div>
+
+            <div id="alliance-about">
+                <h2>Alliance Information</h2>
+                <p>Select a bloc to view details.</p>
+            </div>
+
+
+            
+        </div>
+
+        <div id="map"></div>
+
+    </div>
+
+
+    <script>
+
+        const alliances = {{ alliances | tojson }};
+
+    </script>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+<footer>
+
+    <div class="footer-content">
+
+        <h3>🌍 GeoSphere</h3>
+
+        <p>
+            Interactive Geopolitical Intelligence Dashboard
+        </p>
+
+        <p>
+            Track global alliances, strategic blocs, geopolitical influence,
+            and international developments in real time.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#">Home</a>
+            <a href="#">Alliances</a>
+            <a href="#">Global News</a>
+            <a href="#">About</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 GeoSphere | Built with Flask, APIs, and Geopolitical Data | Built by Archi
+        </p>
+
+    </div>
+
+</footer>
+
+</html>

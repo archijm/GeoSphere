@@ -1,0 +1,34 @@
+{
+    "NATO": [
+        "United States",
+        "Canada",
+        "United Kingdom",
+        "France",
+        "Germany",
+        "Italy",
+        "Poland"
+    ],
+
+    "BRICS": [
+        "Brazil",
+        "Russia",
+        "India",
+        "China",
+        "South Africa"
+    ],
+
+    "SCO": [
+        "China",
+        "India",
+        "Russia",
+        "Pakistan",
+        "Kazakhstan"
+    ],
+
+    "QUAD": [
+        "United States",
+        "India",
+        "Japan",
+        "Australia"
+    ]
+}
