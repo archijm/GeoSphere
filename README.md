@@ -1,4 +1,3 @@
-
 # GeoSphere 🌍
 
 Interactive Geopolitical Intelligence Dashboard built using Flask, JavaScript, HTML/CSS, and APIs.
